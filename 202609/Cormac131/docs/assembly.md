@@ -14,7 +14,7 @@ Tighten nothing fully until the screen, camera strip, radar front, and shell clo
 
 ## 1. Inserts
 
-Heat-set all M3, M2.5, and M2 inserts. M3 inserts for adjustable feet go in the [shell](parts/shell.md); skip those if using solid feet. The camera front takes **2× M2** inserts for the OV9281.
+Heat-set all M3, M2.5, and M2 inserts. M3 inserts for adjustable feet go in the [shell](parts/shell.md); skip those if using solid feet. The camera front takes **2× M2** inserts for the OV9281, plus **2× M2** more if you printed the sound-detector retainer.
 
 ## 2. Mount components to their printed parts
 
@@ -25,7 +25,7 @@ Do this on the bench, not in the closed case.
 | UPS / Pi (and x1202 or x1209 adapter if required) | [Shell](parts/shell.md) |
 | Adafruit modules | Shell (three bays on the left wall) |
 | OPS and IWR | [Radar front](parts/radar.md) — **flash the IWR before you mount it**, unless you printed a no-fill radar front |
-| Camera (Innomaker OV9281) and sound detector | [Camera front](parts/camera.md) |
+| Camera (Innomaker OV9281) and sound detector | [Camera front](parts/camera.md) — sound board in the pocket, then the printed retainer |
 | Display | [Screen bezel](parts/screen.md) (1024×600 uses the extra 4 inserts) |
 
 **x1209:** x12-a1 shell plus the x1209 adapter. Do not use that shell without the adapter.
@@ -35,6 +35,8 @@ Do this on the bench, not in the closed case.
 ![Pi and UPS in the shell](drawings/assy-01-boards.png)
 
 ![Camera on the camera front](drawings/assy-01-camera-mount.png)
+
+![Sound detector under the retainer](drawings/assy-01-camera-sound-retainer.png)
 
 ![OPS / IWR on the radar front](drawings/assy-01-radar-mount.png)
 

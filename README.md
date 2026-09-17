@@ -18,7 +18,7 @@ Current release files live under [`202609/Cormac131/`](202609/Cormac131/).
 | [Pi adapters](202609/Cormac131/docs/parts/adapters.md) | No-UPS (x1202) and x1209 (x12-a1 shell) |
 | [Feet](202609/Cormac131/docs/parts/feet.md) | Solid vs adjustable |
 | [Screen bezel](202609/Cormac131/docs/parts/screen.md) | Display size options |
-| [Camera front](202609/Cormac131/docs/parts/camera.md) | Camera and sound-detector fronts |
+| [Camera front](202609/Cormac131/docs/parts/camera.md) | Camera, sound-detector + retainer; UART / USB OPS |
 | [Radar front](202609/Cormac131/docs/parts/radar.md) | Standard or no-fill (open in front of the radars) |
 | [CAD drawings](202609/Cormac131/docs/drawings/README.md) | Assembly and print-orientation stills |
 

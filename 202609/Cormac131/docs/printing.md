@@ -44,7 +44,7 @@ Screen: face to the plate.
 
 ![Camera — face to the plate](drawings/print-camera.png)
 
-Camera: face to the plate. **Tree supports required.**
+Camera strip: face to the plate. **Tree supports required.** The sound-detector retainer is a separate 2.5 mm plate — print it **flat**, no supports.
 
 ![Shell — on its back](drawings/print-shell.png)
 
@@ -53,6 +53,7 @@ Shell: printed on its back. **Supports required; tree recommended.**
 ## Per-part exceptions
 
 - **Radar no-fill** — print on its back; tree supports. No cover in front of the radars (RF). See [radar](parts/radar.md).
+- **Sound-detector retainer** — print flat. See [camera](parts/camera.md).
 - **Insert bosses** — pause is not required; press inserts after printing.
 
 ## Fit

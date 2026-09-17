@@ -8,7 +8,7 @@ Install inserts with a soldering iron, square to the boss, flush with the plasti
 | --- | --- | --- |
 | Heat-set insert | **M3 × 4 mm** short knurled brass | Fronts, screen, adjustable-feet bosses in the shell |
 | Heat-set insert | **M2.5 × 4 mm** short knurled brass | UPS / Pi and Adafruit bays in the shell |
-| Heat-set insert | **M2 × 4 mm** short knurled brass | Camera module (OV9281) |
+| Heat-set insert | **M2 × 4 mm** short knurled brass | Camera module (OV9281) and sound-detector retainer |
 | Case screw | **M3×8**, **M3×10**, or **M3×12** | 10 screws that mount the fronts to the shell |
 
 Pick M3 length after a dry fit (start with **M3×10**).
@@ -41,12 +41,14 @@ The 10 case screws from the shell go into the 4 case-mounting inserts (shared wi
 
 ### Camera front
 
-Both camera STLs also take **2× M2 inserts** for the OV9281.
+The strip is compatible with **UART and USB OPS** (clearance is in the camera front, not a second STL). Both variants take **2× M3** for case mounting.
 
 | Variant | M3 inserts | M2 inserts |
 | --- | --- | --- |
 | Camera | 2 — case mounting | 2 — camera module |
-| Camera + sound detector | 2 — case mounting, plus **2** for the sound detector (**4** M3 total) | 2 — camera module |
+| Camera + sound detector | 2 — case mounting | **4** — 2 camera, 2 retainer |
+
+Print `Sound-Detector-Retainer.stl` with the sound-detector front. The retainer screws into the two extra M2 inserts.
 
 ### Radar front (all production STLs)
 
@@ -85,14 +87,14 @@ Inserts for adjustable feet go in the **shell**, not in the foot STL.
 
 **Same with sound detector and adjustable feet**
 
-- Add **2× M3** (sound detector) and **4× M3** (feet in the shell)
+- Add **2× M2** (sound-detector retainer) and **4× M3** (feet in the shell)
 
 **1024×600 radar**
 
 - Screen: **8× M3** inserts
 - Radar: **12× M3** inserts (4 OPS + 4 IWR + 4 case)
 - Shell: still **4× M2.5** (UPS / Pi), **10× M3** screws, plus feet/Adafruit as above
-- Camera: **2× M2** inserts (OV9281) plus its M3 case inserts
+- Camera: **2× M2** inserts (OV9281) plus **2× M3** case inserts; add **2× M2** more if using the sound-detector retainer
 
 **x1209** — add the x12-a1 shell (not standalone) and **8× M2.5** for the adapter.
 

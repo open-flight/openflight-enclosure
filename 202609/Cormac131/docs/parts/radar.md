@@ -1,6 +1,6 @@
 # Radar front
 
-Lower housing for OPS and IWR. Print this **and** a [camera front](camera.md). Pick one radar STL.
+Lower housing for OPS and IWR. Print this **and** a [camera front](camera.md). Pick one radar STL. UART and USB OPS both use this radar front; the [camera strip](camera.md) is the part that clears both connector types.
 
 ![OPS / IWR on the radar front](../drawings/assy-01-radar-mount.png)
 

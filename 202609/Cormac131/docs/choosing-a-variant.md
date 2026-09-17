@@ -28,9 +28,9 @@ All STL paths below are relative to [`stls/`](../stls/).
    ├─ Standard (cover in front of the radars)
    └─ No-fill (open in front of the radars; does not block RF)
 
-5. Camera front
+5. Camera front (same strip for UART or USB OPS)
    ├─ Camera only
-   └─ Camera + sound detector
+   └─ Camera + sound detector  (+ print Sound-Detector-Retainer.stl)
 
 6. Feet
    ├─ Solid
@@ -45,7 +45,7 @@ All STL paths below are relative to [`stls/`](../stls/).
 | Adapter | none / no-UPS / x1209 | `shell/x1202 Pi Adapater.stl` if skipping UPS; `shell/x1209 PI Adapater.stl` with the x12-a1 shell |
 | Screen | | `screen/Screen-….stl` |
 | Radar | | `radar/Front-Radar….stl` |
-| Camera | | `camera/Front-Camera….stl` |
+| Camera | | `camera/Front-Camera….stl` (+ `camera/Sound-Detector-Retainer.stl` if using sound) |
 | Feet | Solid / Adjustable | `shell/feet/Feet-….stl` |
 
 ## Compatibility matrix
@@ -79,10 +79,12 @@ Do not print `Shell-x12-a1` without the x1209 adapter. That shell is only for x1
 
 ### Camera front
 
+UART vs USB OPS does not change the camera STL. The strip clears both.
+
 | Variant | STL |
 | --- | --- |
 | Camera | `camera/Front-Camera.stl` |
-| Camera + sound detector | `camera/Front-Camera-Sound-Detector.stl` |
+| Camera + sound detector | `camera/Front-Camera-Sound-Detector.stl` **and** `camera/Sound-Detector-Retainer.stl` |
 
 ### Feet (independent)
 
@@ -106,6 +108,7 @@ Do not print `Shell-x12-a1` without the x1209 adapter. That shell is only for x1
 - `shell/usbc-ethernet/Shell-x1202.stl`
 - `radar/Front-Radar.stl`
 - `camera/Front-Camera-Sound-Detector.stl`
+- `camera/Sound-Detector-Retainer.stl`
 - `screen/Screen-1024x600.stl`
 - `shell/feet/Feet-Adjustable.stl`
 

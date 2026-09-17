@@ -34,7 +34,7 @@ The seven assembly stills and print-orientation shots live in [`drawings/`](draw
   stls/
     shell/       Rear body + power cutouts + adapters + feet
     screen/      Display bezels
-    camera/      Lower front with camera
+    camera/      Lower front with camera (+ sound-detector retainer)
     radar/       Lower front with radar
 ```
 

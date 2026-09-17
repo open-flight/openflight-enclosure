@@ -6,6 +6,7 @@ Assembly stills and print orientations used in the docs.
 | --- | --- |
 | [`assy-01-boards.png`](assy-01-boards.png) | Pi / UPS in the shell |
 | [`assy-01-camera-mount.png`](assy-01-camera-mount.png) | Camera on the camera front |
+| [`assy-01-camera-sound-retainer.png`](assy-01-camera-sound-retainer.png) | Camera + sound detector with retainer (UART / USB OPS clearance) |
 | [`assy-01-radar-mount.png`](assy-01-radar-mount.png) | OPS / IWR on the radar front |
 | [`assy-01-screen-mount.png`](assy-01-screen-mount.png) | Display in the bezel |
 | [`assy-03-radar.png`](assy-03-radar.png) | Radar front on the shell |
