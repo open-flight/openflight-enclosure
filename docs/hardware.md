@@ -31,8 +31,14 @@ Same on every current `v1` shell (Ethernet, DC jack, power button). Old USB-C re
 | 2 or 4 each | M2.5 insert | Each of **3 Adafruit module bays** you populate (skip empty bays) |
 | 10 | M3×8 / M3×10 / M3×12 | Mount screen + lower front to the shell |
 | 4 | M3 insert | **Adjustable feet only** — omit if using solid feet |
+| 2 | M3 screw + nut, or M3 self-tapper | **Ethernet coupler only** — the flange screws into the two Ø4.0 mm rear holes, 27.0 mm apart. No insert: the holes are clearance, not insert pockets |
 
 Adafruit total if all three bays are used: **6 or 12** extra M2.5 inserts (2 or 4 per bay).
+
+The rear DC jack and power button clamp into their own Ø12.5 mm holes with the
+nuts they ship with — no screws or inserts. See
+[Rear I/O openings](parts/shell.md#rear-io-openings) for every rear hole
+dimension and what fits it.
 
 ### Screen bezel
 
