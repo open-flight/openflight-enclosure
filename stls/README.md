@@ -14,7 +14,7 @@ Mix versions only on purpose (for example a `v1` shell with an experimental rada
 stls/
   adapters/v1/     Pi adapters
   camera/v1/       Camera + sound-detector retainer
-  camera/eol/      Camera-only front — see camera/eol/README.md
+  camera/eol/      Camera-only and previous sound-detector fronts — see camera/eol/README.md
   feet/v1/         Solid and adjustable feet
   radar/v1/        No-fill radar front
   radar/eol/       Filled radar front — see radar/eol/README.md

@@ -53,7 +53,7 @@ The 10 case screws from the shell go into the 4 case-mounting inserts (shared wi
 
 ### Camera front
 
-The current strip is camera + sound detector (`camera/v1/`). Compatible with **UART and USB OPS**. Camera-only is [EOL](../stls/camera/eol/README.md).
+The current strip is camera + sound detector (`camera/v1/`). Compatible with **UART and USB OPS**. Camera-only and the previous sound-detector strip are [EOL](../stls/camera/eol/README.md).
 
 | Qty | Item | Role |
 | --- | --- | --- |

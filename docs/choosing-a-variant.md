@@ -2,7 +2,7 @@
 
 The enclosure is modular. You print **one rear shell**, **one screen bezel**, **one radar front**, **one camera front**, **one set of feet**, and an adapter when you skip the UPS or when the board requires it.
 
-All STL paths below are relative to [`stls/`](../stls/). Print from **`v1/`**. Files under `experimental/` are not the release set. Current shells have **Ethernet, a DC jack, and a power button**. The current radar is **no-fill**; the current camera front includes the **sound detector**. Withdrawn files live under each part’s `eol/` folder.
+All STL paths below are relative to [`stls/`](../stls/). Print from **`v1/`**. Files under `experimental/` are not the release set. Current shells have **Ethernet, a DC jack, and a power button**. The current radar is **no-fill**; the current camera front includes the **sound detector** and puts the camera in line with the IWR. Withdrawn files live under each part’s `eol/` folder.
 
 ## Decision tree
 
@@ -22,7 +22,7 @@ All STL paths below are relative to [`stls/`](../stls/). Print from **`v1/`**. F
 
 3. Radar front — no-fill (`radar/v1/Front-Radar-No-Fill.stl`; filled front is EOL)
 
-4. Camera front — sound detector (`camera/v1/Front-Camera-Sound-Detector.stl` **and** `Sound-Detector-Retainer.stl`; camera-only is EOL)
+4. Camera front — sound detector (`camera/v1/Front-Camera-Sound-Detector.stl` **and** `Sound-Detector-Retainer.stl`; camera-only and the previous strip are EOL)
 
 5. Feet
    ├─ Solid
@@ -51,7 +51,7 @@ All STL paths below are relative to [`stls/`](../stls/). Print from **`v1/`**. F
 | x1206 | `shell/v1/Shell-x1206.stl` | — |
 | x1209 | `shell/v1/Shell-x12-a1.stl` | `adapters/v1/x1209 PI Adapater.stl` (required) |
 
-Withdrawn (do not print for a new unit): USB-C rear shells (`shell/eol/`), filled radar (`radar/eol/Front-Radar.stl`), camera-only front (`camera/eol/Front-Camera.stl`).
+Withdrawn (do not print for a new unit): USB-C rear shells (`shell/eol/`), filled radar (`radar/eol/Front-Radar.stl`), camera-only front (`camera/eol/Front-Camera.stl`), previous sound-detector camera front (`camera/eol/Front-Camera-Sound-Detector.stl`).
 
 Do not print `Shell-x12-a1` without the x1209 adapter. That shell is only for x1209.
 
@@ -77,7 +77,8 @@ UART vs USB OPS does not change the camera STL. The strip clears both.
 
 | Variant | STL |
 | --- | --- |
-| Camera + sound detector (current) | `camera/v1/Front-Camera-Sound-Detector.stl` **and** `camera/v1/Sound-Detector-Retainer.stl` |
+| Camera + sound detector, camera in line with the IWR (current) | `camera/v1/Front-Camera-Sound-Detector.stl` **and** `camera/v1/Sound-Detector-Retainer.stl` |
+| Camera + sound detector, previous strip (EOL) | `camera/eol/Front-Camera-Sound-Detector.stl` |
 | Camera only (EOL) | `camera/eol/Front-Camera.stl` |
 
 ### Feet (independent)

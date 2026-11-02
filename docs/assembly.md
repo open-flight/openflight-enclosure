@@ -65,6 +65,8 @@ With the board stack in the shell and the fronts still off, connect every cable 
 
 You will not have room to mate these after the fronts are on.
 
+**Camera ribbon cable — take care.** On the current camera front (`camera/v1/`) the camera sits in line with the IWR, so the CSI ribbon has to be routed around the radar module so it does not cover the IWR. Ribbon cables are delicate: bend them gently in a smooth curve, never crease or sharply fold them, and do not force the cable into place when fitting the camera front. A damaged ribbon typically shows up as the camera not being detected. If that happens, reseat both ends first, then try a replacement cable.
+
 ## 4. Fronts onto the shell
 
 Use the **10 M3×8/10/12** screws and a **2.5 mm hex key** with **at least 90 mm of reach**. Fit in this order:
@@ -98,6 +100,7 @@ Fit [feet](parts/feet.md) last. Adjustable feet screw into the 4 M3 inserts in t
 - Power connector does not stress the HAT.
 - Display is square in the bezel.
 - Camera / radar windows are unobstructed.
+- Camera ribbon is not creased or pinched, and the camera is detected after closing.
 - Unit does not rock; adjustable feet take the load, not the shell corners.
 
 If you like the design, [buy me a coffee](https://buymeacoffee.com/cormacmcgrath).
