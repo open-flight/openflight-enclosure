@@ -1,0 +1,1 @@
+Original design of [12mm Pixel Strip Plug by fremnet](https://www.thingiverse.com/thing:5683075/files) is licensed under the Creative Commons - Attribution license. Then modified via Tinkercad.
