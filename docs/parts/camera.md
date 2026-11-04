@@ -1,6 +1,6 @@
 # Camera front
 
-Thin strip that sits on the radar front, under the screen. The current front is **camera + sound detector**. Print both STLs.
+Thin strip that sits on the radar front, under the screen. The current front is **camera + sound detector**, with the camera in line with the IWR for camera/radar fusion. Print both STLs.
 
 The strip is relieved behind the middle so **UART and USB OPS** both fit on the radar front. You do not print a different camera STL for OPS connector type.
 
@@ -12,10 +12,10 @@ The strip is relieved behind the middle so **UART and USB OPS** both fit on the 
 
 | File | Role |
 | --- | --- |
-| [`Front-Camera-Sound-Detector.stl`](../../stls/camera/v1/Front-Camera-Sound-Detector.stl) | Camera strip with sound-detector pocket |
+| [`Front-Camera-Sound-Detector.stl`](../../stls/camera/v1/Front-Camera-Sound-Detector.stl) | Camera strip with sound-detector pocket, camera in line with the IWR |
 | [`Sound-Detector-Retainer.stl`](../../stls/camera/v1/Sound-Detector-Retainer.stl) | Holds the sound board in the pocket |
 
-The camera-only front (`Front-Camera.stl`) is **EOL** — see [`stls/camera/eol/`](../../stls/camera/eol/README.md).
+The previous sound-detector strip (camera not in line with the IWR) and the camera-only front (`Front-Camera.stl`) are **EOL** — see [`stls/camera/eol/`](../../stls/camera/eol/README.md). The retainer is unchanged and fits both strips.
 
 ## Hardware
 
