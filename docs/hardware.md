@@ -9,7 +9,7 @@ Install inserts with a soldering iron, square to the boss, flush with the plasti
 | Heat-set insert | **M3 × 4 mm** long, **Ø4.8–5.2 mm** outer (knurl) diameter | Fronts, screen, adjustable-feet bosses in the shell |
 | Heat-set insert | **M2.5 × 4 mm** long, **Ø3.5–3.8 mm** outer diameter | Battery board / Pi and Adafruit bays in the shell |
 | Heat-set insert | **M2 × 4 mm** long, **Ø3.2–3.5 mm** outer diameter | Camera module (OV9281) and sound-detector retainer |
-| Case screw | **M3×8**, **M3×10**, or **M3×12** | 10 screws that mount the fronts to the shell |
+| Case screw | **M3×8**, **M3×10**, or **M3×12**, **socket head cap screw** (ISO 4762 / DIN 912: Ø5.5 mm head, 2.5 mm hex socket) | 10 screws that mount the fronts to the shell, driven from the back of the shell; see [Tools](#tools) for why the head type matters |
 | Board-stack screw | **M2.5**, length depends on the shell | 4 screws that hold the battery board / Pi stack; see [Board-stack screws per shell](#board-stack-screws-per-shell) |
 
 Pick M3 length after a dry fit (start with **M3×10**).
@@ -54,6 +54,8 @@ How to work out the length (under the head):
 The holes all run 10° off square to the rear wall (the board stack leans with the case), so drive the screws along the hole.
 
 ## Tools
+
+The M3 case screws go in **from the back of the shell**: each one drops down a narrow channel in the shell, through the shell wall and into the insert in a front. The channel is about **Ø6.0 mm**, so the screw head has to be narrower than that. An M3 **socket head cap screw** (ISO 4762 / DIN 912) has a **Ø5.5 mm** head, the narrowest of the common M3 heads, so it slides down the channel. Pan heads and flanged heads are around Ø6 mm or wider and jam, so do not buy those. The socket head takes a **2.5 mm hex key**, and a **ball-end** key lets you turn it at a slight angle, since the key is working down a long channel.
 
 The M3 case screws sit deep in the shell. A short hex driver will not reach. You need a **2.5 mm ball-end hex key** with **at least 90 mm of reach** on the long arm for case mounting. [This long-arm pair](https://www.amazon.co.uk/dp/B0D4H8CHNR) is one option (~114 mm); any equivalent with ≥90 mm reach is fine.
 

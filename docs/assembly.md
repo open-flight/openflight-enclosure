@@ -69,7 +69,7 @@ You will not have room to mate these after the fronts are on.
 
 ## 4. Fronts onto the shell
 
-Use the **10 M3×8/10/12** screws and a **2.5 mm hex key** with **at least 90 mm of reach**. Fit in this order:
+Use the **10 M3×8/10/12 socket head** screws and a **2.5 mm ball-end hex key** with **at least 90 mm of reach**. They go in from the back of the shell, down narrow channels: the Ø5.5 mm socket head fits, wider pan or flanged heads do not ([why](hardware.md#tools)). Fit in this order:
 
 1. **Radar**
 2. **Camera**
