@@ -1,6 +1,6 @@
 # Shell and power
 
-The rear body. Pick one board-specific file. Every current `v1` shell has the same rear I/O:
+The rear body. Pick the file that matches your **battery board**: X1202, X1206 and X1209 are Geekworm battery (UPS) boards that sit under the Pi, and each shell is shaped for one of them ([what the codes mean](../choosing-a-variant.md#what-x1202-x1206-and-x1209-mean)). Every current `v1` shell has the same rear I/O:
 
 - **Ethernet** — 16.0 × 14.0 mm opening with two Ø4.0 mm screw holes
 - **Barrel DC jack** — Ø12.5 mm
@@ -10,7 +10,7 @@ Full dimensions and what fits them: [Rear I/O openings](#rear-io-openings).
 
 USB-C rear shells are **EOL** (USB-C spec compatibility) — see [`stls/shell/eol/`](../../stls/shell/eol/README.md).
 
-![Pi and UPS mounted in the shell](../drawings/assy-01-boards.png)
+![Pi and battery board mounted in the shell](../drawings/assy-01-boards.png)
 
 ## Rear I/O openings
 
@@ -101,17 +101,19 @@ A **12 mm panel-mount momentary push button**. It must be **momentary**
 (spring-back): the X1202/X1206 read how long the button is held, so a latching
 or toggle switch will not work.
 
-## Board-specific shells
+## Shells per battery board
 
-| Board | STL |
+| Battery (UPS) board | STL |
 | --- | --- |
-| x1209 (uses x12-a1 shell + adapter) | [`stls/shell/v1/Shell-x12-a1.stl`](../../stls/shell/v1/Shell-x12-a1.stl) |
-| x1202 (UPS; also use this shell with no UPS) | [`stls/shell/v1/Shell-x1202.stl`](../../stls/shell/v1/Shell-x1202.stl) |
-| x1206 | [`stls/shell/v1/Shell-x1206.stl`](../../stls/shell/v1/Shell-x1206.stl) |
+| X1209 battery board (uses x12-a1 shell + adapter) | [`stls/shell/v1/Shell-x12-a1.stl`](../../stls/shell/v1/Shell-x12-a1.stl) |
+| X1202 battery board (also use this shell with no battery board) | [`stls/shell/v1/Shell-x1202.stl`](../../stls/shell/v1/Shell-x1202.stl) |
+| X1206 battery board | [`stls/shell/v1/Shell-x1206.stl`](../../stls/shell/v1/Shell-x1206.stl) |
 
 **x12-a1 is not a standalone build.** Print `Shell-x12-a1` only with the [x1209 Pi adapter](adapters.md).
 
-**x1202 is the UPS shell.** With the UPS board, print that shell only. With no UPS, still print an x1202 shell and add the [x1202 Pi adapter](adapters.md).
+**x1202 is the X1202 battery-board shell.** With the X1202, print that shell only. With no battery board, still print an x1202 shell and add the [x1202 Pi adapter](adapters.md).
+
+The four M2.5 bosses that hold the board stack differ per shell (pocket depth and screw pattern), so the screw length does too: see [Board-stack screws per shell](../hardware.md#board-stack-screws-per-shell).
 
 ![Rear render](../../renders/rear.png)
 
@@ -121,10 +123,10 @@ See [Required hardware](../hardware.md).
 
 | Qty | Item | Role |
 | --- | --- | --- |
-| 4 | M2.5 insert | UPS and Raspberry Pi |
+| 4 | M2.5 insert | Battery board and Raspberry Pi |
 | 2 or 4 per bay | M2.5 insert | Each of 3 Adafruit bays you populate |
 | 10 | M3×8 / M3×10 / M3×12 | Mount screen and lower front to the shell |
-| 4 | M3 insert | Adjustable feet only — none if using solid feet |
+| 4 | M3 insert | Adjustable feet only — none with solid feet or no feet (feet are optional) |
 
 Same counts on every current shell.
 

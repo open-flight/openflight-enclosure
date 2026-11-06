@@ -2,14 +2,14 @@
 
 Small plates that sit between the Pi and the shell. Print only when the table says to.
 
-The **x1202 shell is the UPS variant**. If you do not want a UPS, keep that shell and print the x1202 Pi adapter instead of fitting the UPS board.
+X1202, X1206 and X1209 are Geekworm **battery (UPS) boards** that sit under the Pi ([what the codes mean](../choosing-a-variant.md#what-x1202-x1206-and-x1209-mean)). The **x1202 shell is shaped for the X1202 battery board**. If you run from a wall supply with no battery board, keep that shell and print the x1202 Pi adapter in place of the battery board.
 
-| Board | STL | Print? |
+| Battery (UPS) board | STL | Print? |
 | --- | --- | --- |
-| x1202 UPS | — | No — the UPS board fills the shell |
-| no UPS | [`stls/adapters/v1/x1202 Pi Adapater.stl`](../../stls/adapters/v1/x1202%20Pi%20Adapater.stl) | Yes — recommended. Use with the x1202 shell |
-| x1206 | — | No |
-| x1209 | [`stls/adapters/v1/x1209 PI Adapater.stl`](../../stls/adapters/v1/x1209%20PI%20Adapater.stl) | Yes — required. Pairs with the **x12-a1 shell** (do not use that shell without this adapter) |
+| X1202 battery board | — | No — the X1202 fills the shell |
+| no battery board | [`stls/adapters/v1/x1202 Pi Adapater.stl`](../../stls/adapters/v1/x1202%20Pi%20Adapater.stl) | Yes — needed. The Pi mounts on it in place of the battery board. Use with the x1202 shell |
+| X1206 battery board | — | No |
+| X1209 battery board | [`stls/adapters/v1/x1209 PI Adapater.stl`](../../stls/adapters/v1/x1209%20PI%20Adapater.stl) | Yes — required. Pairs with the **x12-a1 shell** (do not use that shell without this adapter) |
 
 Filenames keep the original spelling (`Adapater`).
 

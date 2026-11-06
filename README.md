@@ -1,6 +1,6 @@
 # OpenFlight enclosure
 
-3D-printable enclosure for an OpenFlight monitor. Print a shell, radar front, camera front, screen, and feet, then assemble.
+3D-printable enclosure for an OpenFlight monitor. Print a shell, radar front, camera front, screen, and (optionally) feet, then assemble.
 
 Print STLs from each part’s `v1/` folder. `experimental/` is for in-progress parts.
 
@@ -14,9 +14,9 @@ Print STLs from each part’s `v1/` folder. `experimental/` is for in-progress p
 | [Choosing a variant](docs/choosing-a-variant.md) | Decision tree and print list |
 | [Printing](docs/printing.md) | Orientation, materials, settings |
 | [Required hardware](docs/hardware.md) | Heat-set inserts and screws per part |
-| [Shell and power](docs/parts/shell.md) | Ethernet, DC jack, and power button; X12 boards |
-| [Pi adapters](docs/parts/adapters.md) | No-UPS (x1202) and x1209 (x12-a1 shell) |
-| [Feet](docs/parts/feet.md) | Solid vs adjustable |
+| [Shell and power](docs/parts/shell.md) | Ethernet, DC jack, and power button; which shell fits which X12xx battery board |
+| [Pi adapters](docs/parts/adapters.md) | No battery board (x1202 shell) and the X1209 battery board (x12-a1 shell) |
+| [Feet](docs/parts/feet.md) | Optional: solid vs adjustable |
 | [Screen bezel](docs/parts/screen.md) | Display size options |
 | [Camera front](docs/parts/camera.md) | Camera, sound-detector + retainer; UART / USB OPS |
 | [Radar front](docs/parts/radar.md) | No-fill (open in front of the radars); filled front is EOL |
@@ -44,7 +44,7 @@ The Bambu A1 mini (180 × 180 mm) is too small.
 
 ## Quick start
 
-1. Choose **UPS/HAT**, **screen**, **front panel**, and **feet**.
+1. Choose your **battery board** (X1202, X1206, X1209, or none), **screen**, **front panel**, and **feet** (optional). The X12xx codes in the shell filenames are Geekworm battery (UPS) boards that sit under the Pi. If you will run from a wall supply, pick "none" ([what the codes mean](docs/choosing-a-variant.md#what-x1202-x1206-and-x1209-mean)).
 2. Copy the STL paths from [Choosing a variant](docs/choosing-a-variant.md).
 3. Print using [Printing](docs/printing.md).
 4. Assemble using [Assembly](docs/assembly.md).

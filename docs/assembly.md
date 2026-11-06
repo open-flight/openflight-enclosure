@@ -7,7 +7,7 @@ Tighten nothing fully until the screen, camera strip, radar front, and shell clo
 ## Before you start
 
 - Printed parts from your [variant list](choosing-a-variant.md)
-- Raspberry Pi, plus the x1202 UPS if you are using one (otherwise the x1202 Pi adapter)
+- Raspberry Pi, plus your battery (UPS) board if you are using one: X1202, X1206 or X1209 ([what the codes mean](choosing-a-variant.md#what-x1202-x1206-and-x1209-mean)). With no battery board, the x1202 Pi adapter instead
 - Display, camera, radar (OPS / IWR), and Adafruit modules for your build
 - Fasteners from [Required hardware](hardware.md) — heat-set inserts **before** you stack boards
 - **2.5 mm ball-end hex key** with **at least 90 mm of reach** for the case screws (see [Required hardware](hardware.md#tools))
@@ -19,8 +19,8 @@ Heat-set inserts before you stack boards. Print and assemble from each part’s 
 
 | Location | Size | What it is |
 | --- | --- | --- |
-| Rear wall of the cavity | **M2.5** | UPS / Pi (or adapter). Four bosses the board stack screws into. |
-| Floor of the shell (four corner bosses) | **M3** | Adjustable feet only. Skip all four if you printed solid feet. |
+| Rear wall of the cavity | **M2.5** | Battery board / Pi (or adapter). Four bosses the board stack screws into; screw length depends on the shell, see [Board-stack screws per shell](hardware.md#board-stack-screws-per-shell). |
+| Floor of the shell (four corner bosses) | **M3** | Adjustable feet only. Skip all four with solid feet or no feet (feet are optional). |
 | Three floor bays | **M2.5** | Adafruit modules. 2 inserts per bay you populate; skip empty bays. A side-wall pair is only if that bay needs 4 screws. |
 | Perimeter holes around the rim | — | **Through-holes.** No inserts. The ten case screws pass through the shell into inserts in the fronts. |
 
@@ -32,17 +32,17 @@ Do this on the bench, not in the closed case.
 
 | Module | Mounts to |
 | --- | --- |
-| UPS / Pi (and x1202 or x1209 adapter if required) | [Shell](parts/shell.md) |
+| Battery board / Pi (and x1202 or x1209 adapter if required) | [Shell](parts/shell.md) |
 | Adafruit modules | Shell (three floor bays; optional extra pair on the side wall) |
 | OPS and IWR | [Radar front](parts/radar.md) — current no-fill front can be flashed after mounting |
-| Camera (Innomaker OV9281) and sound detector | [Camera front](parts/camera.md) — sound board in the pocket, then the printed retainer |
+| Camera (Innomaker OV9281) and sound detector | [Camera front](parts/camera.md) — sound board in the pocket on the back of the strip (behind the front bar), then the printed retainer from behind |
 | Display | [Screen bezel](parts/screen.md) (1024×600 uses the extra 4 inserts) |
 
-**x1209:** x12-a1 shell plus the x1209 adapter. Do not use that shell without the adapter.
+**X1209 battery board:** x12-a1 shell plus the x1209 adapter. Do not use that shell without the adapter.
 
-**No UPS:** x1202 shell plus the x1202 Pi adapter.
+**No battery board:** x1202 shell plus the x1202 Pi adapter.
 
-![Pi and UPS in the shell](drawings/assy-01-boards.png)
+![Pi and battery board in the shell](drawings/assy-01-boards.png)
 
 ![Camera on the camera front](drawings/assy-01-camera-mount.png)
 
@@ -56,7 +56,7 @@ Do this on the bench, not in the closed case.
 
 With the board stack in the shell and the fronts still off, connect every cable that must reach the Pi:
 
-- Power / UPS
+- Power / battery board
 - Power (DC jack) and Ethernet; use the rear power button to switch the unit
 - Display (DSI / HDMI / USB)
 - Camera CSI
@@ -69,7 +69,7 @@ You will not have room to mate these after the fronts are on.
 
 ## 4. Fronts onto the shell
 
-Use the **10 M3×8/10/12** screws and a **2.5 mm hex key** with **at least 90 mm of reach**. Fit in this order:
+Use the **10 M3×8/10/12 socket head** screws and a **2.5 mm ball-end hex key** with **at least 90 mm of reach**. They go in from the back of the shell, down narrow channels: the Ø5.5 mm socket head fits, wider pan or flanged heads do not ([why](hardware.md#tools)). Fit in this order:
 
 1. **Radar**
 2. **Camera**
@@ -81,9 +81,9 @@ Use the **10 M3×8/10/12** screws and a **2.5 mm hex key** with **at least 90 mm
 
 ![Screen last](drawings/assy-05-screen.png)
 
-## 5. Feet
+## 5. Feet (optional)
 
-Fit [feet](parts/feet.md) last. Adjustable feet screw into the 4 M3 inserts in the shell. Set them so the unit sits level.
+Feet are optional; skip this step if you did not print them. Otherwise fit [feet](parts/feet.md) last. Adjustable feet screw into the 4 M3 inserts in the shell. Set them so the unit sits level.
 
 ## IWR flashing
 
@@ -97,7 +97,7 @@ Fit [feet](parts/feet.md) last. Adjustable feet screw into the 4 M3 inserts in t
 - IWR is flashed (current no-fill front can be done after mounting).
 - Every Pi cable is seated before the fronts go on.
 - Fronts went on radar → camera → screen.
-- Power connector does not stress the HAT.
+- Power connector does not stress the battery board.
 - Display is square in the bezel.
 - Camera / radar windows are unobstructed.
 - Camera ribbon is not creased or pinched, and the camera is detected after closing.

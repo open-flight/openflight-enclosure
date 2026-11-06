@@ -1,6 +1,6 @@
 # Feet
 
-Pick **solid** or **adjustable**. Both live under `stls/feet/v1/`.
+**Feet are optional.** Without them the shell sits directly on its base, and the four foot bosses in the shell stay empty. If you want feet, pick **solid** or **adjustable**. Both live under `stls/feet/v1/`.
 
 | Variant | STL | Use when |
 | --- | --- | --- |
