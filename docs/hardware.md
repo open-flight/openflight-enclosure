@@ -73,7 +73,7 @@ Same on every current `v1` shell (Ethernet, DC jack, power button). Old USB-C re
 | 4 | M2.5 screw | Battery board / Pi stack; length per shell in [Board-stack screws per shell](#board-stack-screws-per-shell) |
 | 2 or 4 each | M2.5 insert | Each of **3 Adafruit module bays** you populate (skip empty bays) |
 | 10 | M3×8 / M3×10 / M3×12 | Mount screen + lower front to the shell |
-| 4 | M3 insert | **Adjustable feet only** — omit if using solid feet |
+| 4 | M3 insert | **Adjustable feet only** — omit with solid feet or no feet (feet are optional) |
 | 2 | M3 screw + nut, or M3 self-tapper | **Ethernet coupler only** — the flange screws into the two Ø4.0 mm rear holes, 27.0 mm apart. No insert: the holes are clearance, not insert pockets |
 
 Adafruit total if all three bays are used: **6 or 12** extra M2.5 inserts (2 or 4 per bay).
@@ -120,7 +120,7 @@ The filled front is [EOL](../stls/radar/eol/README.md).
 
 ### Feet
 
-Inserts for adjustable feet go in the **shell**, not in the foot STL.
+Feet are optional; with no feet you need no foot hardware at all. Inserts for adjustable feet go in the **shell**, not in the foot STL.
 
 | Variant | Shell | Foot |
 | --- | --- | --- |
@@ -166,6 +166,6 @@ Follow [Assembly](assembly.md). Short version:
 2. Mount every module to its printed part (current no-fill radar can be flashed after mounting).
 3. Connect cables to the Pi.
 4. Screw fronts to the shell: radar, then camera, then screen.
-5. Feet last.
+5. Feet last, if you fit them (they are optional).
 
 If you like the design, [buy me a coffee](https://buymeacoffee.com/cormacmcgrath).

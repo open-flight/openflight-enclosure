@@ -20,7 +20,7 @@ Heat-set inserts before you stack boards. Print and assemble from each part’s 
 | Location | Size | What it is |
 | --- | --- | --- |
 | Rear wall of the cavity | **M2.5** | Battery board / Pi (or adapter). Four bosses the board stack screws into; screw length depends on the shell, see [Board-stack screws per shell](hardware.md#board-stack-screws-per-shell). |
-| Floor of the shell (four corner bosses) | **M3** | Adjustable feet only. Skip all four if you printed solid feet. |
+| Floor of the shell (four corner bosses) | **M3** | Adjustable feet only. Skip all four with solid feet or no feet (feet are optional). |
 | Three floor bays | **M2.5** | Adafruit modules. 2 inserts per bay you populate; skip empty bays. A side-wall pair is only if that bay needs 4 screws. |
 | Perimeter holes around the rim | — | **Through-holes.** No inserts. The ten case screws pass through the shell into inserts in the fronts. |
 
@@ -81,9 +81,9 @@ Use the **10 M3×8/10/12 socket head** screws and a **2.5 mm ball-end hex key** 
 
 ![Screen last](drawings/assy-05-screen.png)
 
-## 5. Feet
+## 5. Feet (optional)
 
-Fit [feet](parts/feet.md) last. Adjustable feet screw into the 4 M3 inserts in the shell. Set them so the unit sits level.
+Feet are optional; skip this step if you did not print them. Otherwise fit [feet](parts/feet.md) last. Adjustable feet screw into the 4 M3 inserts in the shell. Set them so the unit sits level.
 
 ## IWR flashing
 

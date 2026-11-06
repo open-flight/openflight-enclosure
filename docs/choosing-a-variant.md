@@ -1,6 +1,6 @@
 # Choosing a variant
 
-The enclosure is modular. You print **one rear shell**, **one screen bezel**, **one radar front**, **one camera front**, **one set of feet**, and an adapter when you skip the battery board or when the board requires it.
+The enclosure is modular. You print **one rear shell**, **one screen bezel**, **one radar front**, **one camera front**, optionally **one set of feet**, and an adapter when you skip the battery board or when the board requires it.
 
 ## What X1202, X1206 and X1209 mean
 
@@ -33,7 +33,8 @@ All STL paths below are relative to [`stls/`](../stls/). Print from **`v1/`**. F
 
 4. Camera front — sound detector (`camera/v1/Front-Camera-Sound-Detector.stl` **and** `Sound-Detector-Retainer.stl`; camera-only and the previous strip are EOL)
 
-5. Feet
+5. Feet (optional; without them the shell sits directly on its base)
+   ├─ None
    ├─ Solid
    └─ Adjustable
 ```
@@ -47,7 +48,7 @@ All STL paths below are relative to [`stls/`](../stls/). Print from **`v1/`**. F
 | Screen | | `screen/v1/Screen-….stl` |
 | Radar | no-fill | `radar/v1/Front-Radar-No-Fill.stl` |
 | Camera | sound detector | `camera/v1/Front-Camera-Sound-Detector.stl` **and** `camera/v1/Sound-Detector-Retainer.stl` |
-| Feet | Solid / Adjustable | `feet/v1/Feet-….stl` |
+| Feet (optional) | None / Solid / Adjustable | `feet/v1/Feet-….stl`, or nothing |
 
 ## Compatibility matrix
 
@@ -90,7 +91,9 @@ UART vs USB OPS does not change the camera STL. The strip clears both.
 | Camera + sound detector, previous strip (EOL) | `camera/eol/Front-Camera-Sound-Detector.stl` |
 | Camera only (EOL) | `camera/eol/Front-Camera.stl` |
 
-### Feet (independent)
+### Feet (optional, independent)
+
+Feet are optional. Skip them and the shell sits directly on its base; no inserts go in the foot bosses.
 
 | Variant | STL |
 | --- | --- |

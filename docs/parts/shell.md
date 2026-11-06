@@ -126,7 +126,7 @@ See [Required hardware](../hardware.md).
 | 4 | M2.5 insert | Battery board and Raspberry Pi |
 | 2 or 4 per bay | M2.5 insert | Each of 3 Adafruit bays you populate |
 | 10 | M3×8 / M3×10 / M3×12 | Mount screen and lower front to the shell |
-| 4 | M3 insert | Adjustable feet only — none if using solid feet |
+| 4 | M3 insert | Adjustable feet only — none with solid feet or no feet (feet are optional) |
 
 Same counts on every current shell.
 
