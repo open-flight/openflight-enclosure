@@ -8,7 +8,7 @@ The enclosure is modular. You print **one rear shell**, **one screen bezel**, **
 
 Pick the shell **before you print**, even if you plan to run from a wall supply for now:
 
-- **No battery board, mains power only:** print `Shell-x1202`. You do not need to print the [x1202 Pi adapter](parts/adapters.md); it is an optional plate for builders who use the x1202 shell without the X1202 board. You can fit an X1202 later in the same shell without reprinting it.
+- **No battery board, mains power only:** print `Shell-x1202` with the [x1202 Pi adapter](parts/adapters.md). The adapter plate takes the place of the battery board. You can fit an X1202 later in the same shell without reprinting it.
 - **Battery power:** print the shell that matches the board you buy. The OpenFlight software reads battery level from the X1202 and X1206; see the [battery guide](https://github.com/open-flight/openflight/blob/main/docs/build/battery.md) and [Powering OpenFlight](https://github.com/open-flight/openflight/blob/main/docs/get-started/power.md) in the main repository for cells, adapters and wiring.
 
 All STL paths below are relative to [`stls/`](../stls/). Print from **`v1/`**. Files under `experimental/` are not the release set. Current shells have **Ethernet, a DC jack, and a power button**. The current radar is **no-fill**; the current camera front includes the **sound detector** and puts the camera in line with the IWR. Withdrawn files live under each part’s `eol/` folder.
@@ -18,7 +18,7 @@ All STL paths below are relative to [`stls/`](../stls/). Print from **`v1/`**. F
 ```
 1. Battery (UPS) board (shell filename must match; files in shell/v1/)
    ├─ X1202 battery board   → Shell-x1202
-   ├─ no battery board      → still Shell-x1202 (x1202 Pi adapter optional, not needed)
+   ├─ no battery board      → still Shell-x1202 + adapters/v1/x1202 Pi Adapater.stl (needed)
    ├─ X1206 battery board   → Shell-x1206
    └─ X1209 battery board   → Shell-x12-a1 + adapters/v1/x1209 PI Adapater.stl
                               (do not use the x12-a1 shell on its own)
@@ -44,7 +44,7 @@ All STL paths below are relative to [`stls/`](../stls/). Print from **`v1/`**. F
 | Slot | Your pick | STL |
 | --- | --- | --- |
 | Shell | Battery (UPS) board | `shell/v1/Shell-<board>.stl` |
-| Adapter | none / no battery board / X1209 | `adapters/v1/x1202 Pi Adapater.stl` optional (not needed) if you skip the battery board; `adapters/v1/x1209 PI Adapater.stl` with the x12-a1 shell |
+| Adapter | none / no battery board / X1209 | `adapters/v1/x1202 Pi Adapater.stl` if you skip the battery board; `adapters/v1/x1209 PI Adapater.stl` with the x12-a1 shell |
 | Screen | | `screen/v1/Screen-….stl` |
 | Radar | no-fill | `radar/v1/Front-Radar-No-Fill.stl` |
 | Camera | sound detector | `camera/v1/Front-Camera-Sound-Detector.stl` **and** `camera/v1/Sound-Detector-Retainer.stl` |
@@ -57,7 +57,7 @@ All STL paths below are relative to [`stls/`](../stls/). Print from **`v1/`**. F
 | Battery (UPS) board | Current shell | Extra adapter |
 | --- | --- | --- |
 | X1202 battery board | `shell/v1/Shell-x1202.stl` | — |
-| no battery board | same x1202 shell | `adapters/v1/x1202 Pi Adapater.stl` (optional, not needed) |
+| no battery board | same x1202 shell | `adapters/v1/x1202 Pi Adapater.stl` (needed) |
 | X1206 battery board | `shell/v1/Shell-x1206.stl` | — |
 | X1209 battery board | `shell/v1/Shell-x12-a1.stl` | `adapters/v1/x1209 PI Adapater.stl` (required) |
 
@@ -120,7 +120,7 @@ Feet are optional. Skip them and the shell sits directly on its base; no inserts
 - `screen/v1/Screen-1024x600.stl`
 - `feet/v1/Feet-Adjustable.stl`
 
-**Same layout with no battery board** — still print `Shell-x1202`. The `adapters/v1/x1202 Pi Adapater.stl` plate is optional; you do not need to print it.
+**Same layout with no battery board** — still print `Shell-x1202`, plus `adapters/v1/x1202 Pi Adapater.stl` so the Pi mounts without the X1202 battery board.
 
 Hardware for whichever list you print: [Required hardware](hardware.md).
 

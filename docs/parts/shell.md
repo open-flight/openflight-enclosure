@@ -111,7 +111,7 @@ or toggle switch will not work.
 
 **x12-a1 is not a standalone build.** Print `Shell-x12-a1` only with the [x1209 Pi adapter](adapters.md).
 
-**x1202 is the X1202 battery-board shell.** With the X1202, print that shell only. With no battery board, still print an x1202 shell; the [x1202 Pi adapter](adapters.md) is optional and not needed.
+**x1202 is the X1202 battery-board shell.** With the X1202, print that shell only. With no battery board, still print an x1202 shell and add the [x1202 Pi adapter](adapters.md).
 
 The four M2.5 bosses that hold the board stack differ per shell (pocket depth and screw pattern), so the screw length does too: see [Board-stack screws per shell](../hardware.md#board-stack-screws-per-shell).
 
