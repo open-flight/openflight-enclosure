@@ -47,7 +47,7 @@ How to work out the length (under the head):
 | Shell | Boss pocket (Ø × depth) | Hole pattern | What the screw passes through | Screw |
 | --- | --- | --- | --- | --- |
 | `Shell-x1202` with the **X1202 battery board** | Ø3.3 × 9.5 mm | 89.0 × 58.0 mm | The Raspberry Pi 5 board, then the X1202's mounting threads, then into the brass insert | **M2.5 × 10 or M2.5 × 12** (used on a real build). M2.5 × 8 does not reach far enough into the insert |
-| `Shell-x1202` with **no battery board** | Ø3.3 × 9.5 mm | 89.0 × 58.0 mm | The 6 mm x1202 Pi adapter plate | See [Adapters](#adapters) |
+| `Shell-x1202` with **no battery board** | Ø3.3 × 9.5 mm | 89.0 × 58.0 mm | The 6 mm x1202 Pi adapter plate, if you print that optional plate | See [Adapters](#adapters) |
 | `Shell-x1206` with the **X1206 battery board** | Ø3.3 × 7.5 mm | 101.0 × 58.0 mm | The X1206 board and whatever spacers sit between it and the boss | Not yet checked on a build: measure your stack, then add 3–7 mm |
 | `Shell-x12-a1` with the **X1209 battery board** | Ø3.4 × 7.5 mm | 86.9 × 58.0 mm | The x1209 Pi adapter plate (4.5–4.7 mm thick at these holes) | Not yet checked on a build: by the rule above, M2.5 × 8 to M2.5 × 12 |
 
@@ -154,7 +154,7 @@ Inserts for adjustable feet go in the **shell**, not in the foot STL.
 
 **X1209 battery board** — add the x12-a1 shell (not standalone) and **8× M2.5** for the adapter.
 
-**No battery board** — add **6× M3×10/12** for the x1202 Pi adapter.
+**No battery board** — nothing extra. Only if you print the optional x1202 Pi adapter: add **6× M3×10/12**.
 
 ## Install order
 

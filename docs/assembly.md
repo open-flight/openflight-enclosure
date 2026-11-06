@@ -7,7 +7,7 @@ Tighten nothing fully until the screen, camera strip, radar front, and shell clo
 ## Before you start
 
 - Printed parts from your [variant list](choosing-a-variant.md)
-- Raspberry Pi, plus your battery (UPS) board if you are using one: X1202, X1206 or X1209 ([what the codes mean](choosing-a-variant.md#what-x1202-x1206-and-x1209-mean)). With no battery board, the x1202 Pi adapter instead
+- Raspberry Pi, plus your battery (UPS) board if you are using one: X1202, X1206 or X1209 ([what the codes mean](choosing-a-variant.md#what-x1202-x1206-and-x1209-mean)). With no battery board, nothing extra (the x1202 Pi adapter is optional)
 - Display, camera, radar (OPS / IWR), and Adafruit modules for your build
 - Fasteners from [Required hardware](hardware.md) — heat-set inserts **before** you stack boards
 - **2.5 mm ball-end hex key** with **at least 90 mm of reach** for the case screws (see [Required hardware](hardware.md#tools))
@@ -40,7 +40,7 @@ Do this on the bench, not in the closed case.
 
 **X1209 battery board:** x12-a1 shell plus the x1209 adapter. Do not use that shell without the adapter.
 
-**No battery board:** x1202 shell plus the x1202 Pi adapter.
+**No battery board:** x1202 shell; the x1202 Pi adapter is optional and not needed.
 
 ![Pi and battery board in the shell](drawings/assy-01-boards.png)
 
