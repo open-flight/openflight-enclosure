@@ -35,7 +35,7 @@ Do this on the bench, not in the closed case.
 | Battery board / Pi (and x1202 or x1209 adapter if required) | [Shell](parts/shell.md) |
 | Adafruit modules | Shell (three floor bays; optional extra pair on the side wall) |
 | OPS and IWR | [Radar front](parts/radar.md) — current no-fill front can be flashed after mounting |
-| Camera (Innomaker OV9281) and sound detector | [Camera front](parts/camera.md) — sound board in the pocket, then the printed retainer |
+| Camera (Innomaker OV9281) and sound detector | [Camera front](parts/camera.md) — sound board in the pocket on the back of the strip (behind the front bar), then the printed retainer from behind |
 | Display | [Screen bezel](parts/screen.md) (1024×600 uses the extra 4 inserts) |
 
 **X1209 battery board:** x12-a1 shell plus the x1209 adapter. Do not use that shell without the adapter.
